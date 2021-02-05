@@ -1,0 +1,30 @@
+.option {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+}
+
+.option > p {
+      font-weight: bold !important;
+      font-size: 20px;
+      margin-right: 20px;
+     
+}
+.option > .MuiSvgIcon-root {
+      padding: 20px;
+}
+
+
+
+.option:hover {
+      background-color: whitesmoke;
+      border-radius: 30px;
+      color:var(--twitter-color);
+      transition: color 100ms ease-out;
+
+}
+
+.active {
+      color: var(--twitter-color);
+
+}
